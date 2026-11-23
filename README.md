@@ -1,41 +1,121 @@
-# TushkaLoLz31337
+<p align="center">
+  <img src="./assets/tushka-banner.svg" alt="TUSHKA — Open systems. Shared power. Build infrastructure the community can own." width="100%">
+</p>
 
-> **Build with discipline. Verify with evidence. Leave systems better than you found them.**
+<p align="center">
+  <strong>INDEPENDENT BY DESIGN · OPEN BY DEFAULT · POWER DISTRIBUTED</strong>
+</p>
 
-I use this space to develop and publish work centered on engineering quality, clear architecture, rigorous verification, and useful technical research.
-
-## Operating pillars
-
-| Pillar | Focus |
-| --- | --- |
-| **Architecture** | Understand the system before changing it. Prefer coherent boundaries, explicit contracts, and maintainable designs. |
-| **Engineering standards** | Make quality measurable through conventions, review criteria, and repeatable practices. |
-| **Verification** | Support claims with tests, reproducible steps, and observable evidence. |
-| **Research** | Turn investigation into documented findings, practical experiments, and reusable knowledge. |
-| **Open source** | Publish useful tools and documentation while keeping private operational material private. |
-
-## How I approach a problem
-
-1. **Observe** — establish context, constraints, and the actual failure or opportunity.
-2. **Model** — map dependencies, interfaces, risks, and intended outcomes.
-3. **Design** — choose the smallest coherent solution that meets the need.
-4. **Implement** — keep changes focused, reviewable, and documented.
-5. **Verify** — test behavior and record evidence; do not confuse assumptions with results.
-6. **Improve** — capture lessons and make the next iteration easier.
-
-## Current focus
-
-- Establishing a consistent engineering and documentation standard.
-- Building a structured research and review workflow.
-- Developing maintainable projects with clear purpose and verifiable behavior.
-- Releasing reusable knowledge and tools through public repositories.
-
-## Collaboration
-
-I value precise problem statements, thoughtful review, reproducible bug reports, and contributions that improve correctness or maintainability.
-
-For a useful issue or proposal, include the context, expected behavior, observed behavior, and steps to reproduce.
+<p align="center">
+  <a href="#the-mandate">THE MANDATE</a> ·
+  <a href="#operating-doctrine">DOCTRINE</a> ·
+  <a href="#the-work">THE WORK</a> ·
+  <a href="#join-the-build">JOIN THE BUILD</a>
+</p>
 
 ---
 
-*Principle: clarity before complexity; evidence before confidence; craftsmanship over noise.*
+## The mandate
+
+**Tushka exists to increase the agency of the people who build, maintain, and depend on open technology.**
+
+The objective is not visibility for its own sake. It is durable capability: tools people can inspect, systems they can fork, knowledge they can verify, and infrastructure no single gatekeeper needs to own.
+
+Power should come from what is built, what is shared, and what continues to work when its original creator steps away.
+
+> **Do not ask the community to trust the machine. Make the machine inspectable. Give the community the means to change it.**
+
+## Operating doctrine
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>01 / Sovereignty</h3>
+      Favor user control, portability, self-hosting, and exit paths. Avoid needless lock-in.
+    </td>
+    <td width="50%" valign="top">
+      <h3>02 / Verifiability</h3>
+      Claims need evidence. Designs need rationale. Releases need reproducible instructions.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>03 / Composability</h3>
+      Build small pieces with clear interfaces. Prefer interoperable systems over isolated empires.
+    </td>
+    <td width="50%" valign="top">
+      <h3>04 / Shared capability</h3>
+      Document the hard parts. Make contribution paths clear. Leave maintainers stronger.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>05 / Security as a foundation</h3>
+      Minimize trust, permissions, dependencies, and exposed data. Treat threat models as design inputs.
+    </td>
+    <td width="50%" valign="top">
+      <h3>06 / Durable impact</h3>
+      Optimize for usefulness, maintainability, and adoption—not noise, vanity metrics, or hype.
+    </td>
+  </tr>
+</table>
+
+## The work
+
+The public portfolio is at an early foundation stage. These are the real, currently available destinations—no placeholder projects or invented activity.
+
+<table>
+  <tr>
+    <td width="58%" valign="top">
+      <h3><a href="https://github.com/TushkaLoLz31337">Tushka / GitHub</a></h3>
+      The public home for releases, experiments, documentation, and community-facing work.
+      <br><br>
+      <a href="https://github.com/TushkaLoLz31337?tab=repositories">Browse public repositories →</a>
+    </td>
+    <td valign="top">
+      <h3><a href="https://github.com/TushkaLoLz31337/tushka-master">Tushka Master</a></h3>
+      Private strategy and operations workspace. Visible only to authorized collaborators.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3><a href="https://github.com/TushkaLoLz31337/TushkaLoLz31337">This profile repository</a></h3>
+      Public identity, contribution entry points, and profile documentation.
+      <br><br>
+      <a href="https://github.com/TushkaLoLz31337/TushkaLoLz31337/commits/main/">Inspect the change history →</a>
+    </td>
+    <td valign="top">
+      <h3><a href="https://github.com/TushkaLoLz31337/TushkaLoLz31337/issues">Public issue tracker</a></h3>
+      Propose an initiative, report a problem with this profile repository, or help improve its community workflows.
+    </td>
+  </tr>
+</table>
+
+## What earns attention here
+
+- **Useful over ornamental.** A tool should solve a real problem or teach something worth reusing.
+- **Open over performative.** Publish source, decisions, limitations, and maintenance expectations where appropriate.
+- **Interoperable over captive.** Favor open formats, documented interfaces, and portable workflows.
+- **Measured over marketed.** Report what works, what does not, and what remains unproven.
+- **Community over personality cult.** The work should be forkable, challengeable, and able to outlive its author.
+
+## Join the build
+
+Open source is not an audience. It is a network of people making each other's work more capable.
+
+- **Have a concrete proposal?** [Open an initiative](https://github.com/TushkaLoLz31337/TushkaLoLz31337/issues/new?template=initiative.yml).
+- **Found a problem in this profile repository?** [Report an issue](https://github.com/TushkaLoLz31337/TushkaLoLz31337/issues/new).
+- **Want to contribute?** Read the [contribution guide](./CONTRIBUTING.md) before opening a pull request.
+- **Want to inspect the source?** [Browse this repository](https://github.com/TushkaLoLz31337/TushkaLoLz31337).
+
+### What makes a strong proposal?
+
+A clear problem, who it affects, why existing options fall short, a plausible approach, and how success could be verified. Small, testable steps beat grand claims.
+
+---
+
+<p align="center">
+  <strong>NO GATEKEEPERS BY DEFAULT. NO CLAIMS WITHOUT EVIDENCE. NO POWER WITHOUT ACCOUNTABILITY.</strong>
+  <br>
+  <sub>TUSHKA · Build what others can own.</sub>
+</p>
