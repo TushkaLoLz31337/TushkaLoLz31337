@@ -1,0 +1,85 @@
+name: Public material deposit
+description: Submit a dated snapshot of an account's public open-source work for Tushka ecosystem intake.
+title: "[Deposit]: "
+labels:
+  - deposit
+  - intake
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit public repository references and provenance information. This is a catalog intake request, not a request to transfer ownership or automatically fork/copy source. Never include credentials, private repository content, or personal data.
+  - type: input
+    id: contributor
+    attributes:
+      label: GitHub account submitting this deposit
+      description: Exact GitHub login.
+      placeholder: account-login
+    validations:
+      required: true
+  - type: input
+    id: snapshot_date
+    attributes:
+      label: Snapshot date (UTC)
+      description: Date the repository list and evidence were collected.
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: textarea
+    id: manifest
+    attributes:
+      label: Public repository manifest
+      description: Paste repository URLs or link a public CSV/JSON manifest. For large portfolios, provide a manifest link.
+      placeholder: |
+        https://github.com/OWNER/REPOSITORY
+        https://github.com/OWNER/ANOTHER-REPOSITORY
+    validations:
+      required: true
+  - type: textarea
+    id: provenance
+    attributes:
+      label: Original work, forks, and upstream relationships
+      description: Identify which entries are original, forks, mirrors, derivatives, or uncertain. Link upstream sources where known.
+    validations:
+      required: true
+  - type: textarea
+    id: capabilities
+    attributes:
+      label: Skills and capabilities demonstrated
+      description: Link to code, tests, releases, documentation, or demos supporting each claim. Unverified claims will remain pending.
+    validations:
+      required: true
+  - type: textarea
+    id: licenses
+    attributes:
+      label: License and redistribution notes
+      description: Provide license identifiers or mark unknown. Identify any restrictions or repositories that should not be mirrored.
+    validations:
+      required: true
+  - type: textarea
+    id: status
+    attributes:
+      label: Project status and limitations
+      description: Distinguish working software, prototypes, research, archived work, and unknown status.
+    validations:
+      required: true
+  - type: textarea
+    id: needs
+    attributes:
+      label: Jobs, needs, or collaboration requests
+      description: What should be reviewed, maintained, tested, documented, or improved next?
+    validations:
+      required: false
+  - type: checkboxes
+    id: attest
+    attributes:
+      label: Submission checks
+      options:
+        - label: I have included only public information and have not included credentials or private data.
+          required: true
+        - label: I have identified known forks/upstream projects and have not claimed third-party work as my own.
+          required: true
+        - label: I have reported license information accurately or marked it unknown.
+          required: true
+        - label: I understand that acceptance does not transfer ownership or automatically authorize source mirroring.
+          required: true
