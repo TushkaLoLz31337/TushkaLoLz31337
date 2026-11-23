@@ -99,6 +99,18 @@ The public portfolio is at an early foundation stage. These are the real, curren
 - **Measured over marketed.** Report what works, what does not, and what remains unproven.
 - **Community over personality cult.** The work should be forkable, challengeable, and able to outlive its author.
 
+## The Huffman ecosystem public build
+
+Tushka is beginning a public, evidence-led build with the Huffman ecosystem as its first participating network of contributor accounts. Each account will submit a dated snapshot of its public open-source work. The goal is to map useful capabilities, preserve provenance, identify reusable components, and establish concrete build jobs—not to mass-fork repositories or claim ownership of upstream work.
+
+**Start here:**
+- [Huffman ecosystem build outline](./HUFFMAN-ECOSYSTEM.md) — contributor roles, operating principles, and the public build scope.
+- [Public material deposit guide](./DEPOSIT-GUIDE.md) — onboarding, snapshot requirements, provenance, and intake review.
+- [Build roadmap and checkpoints](./BUILD-ROADMAP.md) — jobs, acceptance evidence, preservation, and expansion gates.
+- [Submit a public material deposit](../../issues/new?template=public-material-deposit.yml) — one account snapshot per request.
+
+The founding account roles are provisional. Demonstrated skills will be published only after reviewing repository evidence submitted by each account. Unknowns will remain explicitly marked as pending.
+
 ## Join the build
 
 Open source is not an audience. It is a network of people making each other's work more capable.
