@@ -1,0 +1,111 @@
+name: Upstream contribution station
+description: Propose or track an improvement intended for an existing open-source project.
+title: "[UPSTREAM] "
+labels:
+  - upstream
+  - contribution
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to document a contribution station and its path back to an upstream project. A fork or pull request does not mean the upstream project has accepted the work.
+  - type: input
+    id: contributor
+    attributes:
+      label: Contributor / participating account
+      description: GitHub account or team responsible for this work.
+      placeholder: username or team
+    validations:
+      required: true
+  - type: input
+    id: upstream_url
+    attributes:
+      label: Original upstream repository URL
+      placeholder: https://github.com/owner/project
+    validations:
+      required: true
+  - type: input
+    id: fork_url
+    attributes:
+      label: Contribution station / fork URL
+      description: Leave blank if you are proposing the work before creating a fork.
+      placeholder: https://github.com/contributor/project
+    validations:
+      required: false
+  - type: input
+    id: base_commit
+    attributes:
+      label: Upstream base branch and commit SHA
+      placeholder: main @ full commit SHA
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License and contribution requirements
+      description: Include SPDX identifier if known, plus CLA/DCO or other terms.
+      placeholder: MIT; DCO required
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: Problem and improvement objective
+      description: What problem exists, who does it affect, and what outcome are you aiming for?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_changes
+    attributes:
+      label: Proposed or completed changes
+      description: Keep the scope focused. Link commits or a branch if available.
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification evidence and limitations
+      description: List tests and commands actually run, results, environments, and untested areas.
+    validations:
+      required: true
+  - type: input
+    id: pull_request
+    attributes:
+      label: Upstream issue, discussion, or pull request URL
+      placeholder: https://github.com/owner/project/pull/123
+    validations:
+      required: false
+  - type: dropdown
+    id: outcome
+    attributes:
+      label: Upstream status
+      options:
+        - Not submitted
+        - Draft
+        - Open
+        - Changes requested
+        - Merged / accepted
+        - Declined / closed
+        - Withdrawn
+    validations:
+      required: true
+  - type: textarea
+    id: maintenance
+    attributes:
+      label: Independent maintenance and handoff plan
+      description: If not accepted upstream, explain whether the fork will be maintained, by whom, and how divergence will be communicated.
+    validations:
+      required: true
+  - type: checkboxes
+    id: attestations
+    attributes:
+      label: Contributor checks
+      options:
+        - label: I reviewed the upstream license and contribution instructions; I have the rights and authority needed for the material I am submitting.
+          required: true
+        - label: I have not included credentials, private data, or material I am not authorized to share.
+          required: true
+        - label: I will not claim upstream acceptance unless the upstream maintainers have merged or formally incorporated the contribution.
+          required: true
+        - label: I have identified the original project and will preserve required attribution and license notices.
+          required: true
