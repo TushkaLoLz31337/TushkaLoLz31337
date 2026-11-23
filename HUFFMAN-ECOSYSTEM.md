@@ -63,6 +63,19 @@ See [DEPOSIT-GUIDE.md](./DEPOSIT-GUIDE.md) for the complete procedure.
 
 Detailed sequencing and checkpoint criteria live in [BUILD-ROADMAP.md](./BUILD-ROADMAP.md).
 
+## Upstream contribution stations
+
+A fork can become a focused contribution station: a place to investigate an upstream project, make a bounded improvement, verify it, and offer the change back. The lifecycle is **Discover → Fork → Improve → Verify → Submit upstream → Share**.
+
+The upstream repository remains the source of truth for its own project. Its maintainers decide whether to accept a proposed change. A pull request is not an accepted contribution until it is merged or otherwise formally incorporated. Independent forks may continue when useful, but must preserve attribution and license obligations and clearly document divergence and maintenance responsibility.
+
+Each station records the canonical upstream URL, license and contribution terms, base commit, reason for the fork, improvement objective, contributor, verification evidence, pull request status, and independent maintenance plan. We track outcomes without implying endorsement or acceptance.
+
+- [Upstream contribution guide](./UPSTREAM-CONTRIBUTION-GUIDE.md)
+- [Submit or update an upstream contribution record](../../issues/new?template=upstream-contribution.yml)
+
+Initial pilot job: **TSK-UPSTREAM-001 — establish and review the first contribution station**, selecting a project only after license, maintainer guidance, and a concrete improvement opportunity have been checked.
+
 ## Change discipline
 
 All material changes should be made through reviewable commits or pull requests. Each change should state what changed, why, what it affects, how it was verified, and how it can be reversed when practical. Removed or superseded catalog entries retain a non-sensitive historical record. Security or privacy incidents may require immediate removal of exposed content, followed by a safe audit record.
