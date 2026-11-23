@@ -1,0 +1,45 @@
+name: Open-source initiative
+description: Propose a concrete project, improvement, or collaboration.
+title: "[Initiative]: "
+labels: ["community", "proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bring a concrete problem and a testable idea. This form is for proposals that could create shared, reusable value.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is broken, missing, or unnecessarily difficult?
+      placeholder: Describe the problem and who experiences it.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Community impact
+      description: Who benefits, and how would this increase shared capability?
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: Proposed approach
+      description: What is a plausible first step? Alternatives are welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and references
+      description: Links, examples, prior art, or reproducible observations.
+    validations:
+      required: false
+  - type: textarea
+    id: success
+    attributes:
+      label: How should success be verified?
+      description: What observable result would show that this worked?
+    validations:
+      required: true
