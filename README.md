@@ -111,6 +111,19 @@ Tushka is beginning a public, evidence-led build with the Huffman ecosystem as i
 
 The founding account roles are provisional. Demonstrated skills will be published only after reviewing repository evidence submitted by each account. Unknowns will remain explicitly marked as pending.
 
+## Don't just fork it. Make it better. Send it upstream.
+
+Open source works best when improvements travel. Find a project worth building upon. Fork it when the license and project rules allow. Explore it, fix something, improve the documentation, add tests, or make it more accessible. Verify the work, then offer it back to the original maintainers.
+
+**Discover → Fork → Improve → Verify → Submit upstream → Share**
+
+A fork is a contribution station, not a claim over the upstream project. The original maintainers decide whether a pull request is accepted. If work remains independent, document its divergence, attribution, license, and maintenance plan honestly.
+
+- [Read the upstream contribution guide](./UPSTREAM-CONTRIBUTION-GUIDE.md)
+- [Open an upstream contribution record](../../issues/new?template=upstream-contribution.yml)
+
+We are not here to collect forks. We are here to make open-source work more useful, more connected, and more durable.
+
 ## Join the build
 
 Open source is not an audience. It is a network of people making each other's work more capable.
