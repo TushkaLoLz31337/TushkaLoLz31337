@@ -1,7 +1,6 @@
 name: Open-source initiative
 description: Propose a concrete project, improvement, or collaboration.
 title: "[Initiative]: "
-labels: ["community", "proposal"]
 body:
   - type: markdown
     attributes:
