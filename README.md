@@ -10,6 +10,7 @@
   <a href="#the-mandate">THE MANDATE</a> ·
   <a href="#operating-doctrine">DOCTRINE</a> ·
   <a href="#the-work">THE WORK</a> ·
+  <a href="#current-build-status">BUILD STATUS</a> ·
   <a href="#join-the-build">JOIN THE BUILD</a>
 </p>
 
@@ -59,7 +60,6 @@ Power should come from what is built, what is shared, and what continues to work
     </td>
   </tr>
 </table>
-
 ## The work
 
 The public portfolio is at an early foundation stage. These are the real, currently available destinations—no placeholder projects or invented activity.
@@ -90,6 +90,18 @@ The public portfolio is at an early foundation stage. These are the real, curren
     </td>
   </tr>
 </table>
+
+## Current build status
+
+| Project / capability | Status | Next milestone |
+|---|---|---|
+| [Tushka Swarm Collective](https://github.com/TushkaLoLz31337/tushka-swarm-collective) | Alpha — `v0.1.0-alpha` published | Reviewed integration and release-quality gates |
+| Agent coordinator and deterministic demo | Implemented | Verified bounded local task dispatch |
+| Local-model adapter (Ollama-compatible endpoint) | Implemented; experimental | Integrate and test the broker workflow |
+| Security and release controls | In progress; owner settings remain a blocker | Enable dependency graph/security settings and protect `main` |
+| Stage 1 collaboration milestone | In progress | Local agent collaboration, independent verification, and resumable checkpoints |
+
+**Current focus:** Stabilize this account's flagship build. Five pull requests are being reviewed; no new project expansion is underway. Planned federation, persistent shared knowledge, remote execution, and production deployment are not claimed as implemented.
 
 ## What earns attention here
 
